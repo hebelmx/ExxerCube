@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34825.169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.OpenAI.Api", "Aspire.OpenAI.Api\Aspire.OpenAI.Api.csproj", "{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.OpenAI.AppHost", "Aspire.OpenAI.AppHost\Aspire.OpenAI.AppHost.csproj", "{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.OpenAI.ServiceDefaults", "Aspire.OpenAI.ServiceDefaults\Aspire.OpenAI.ServiceDefaults.csproj", "{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928EA655-35FE-40C4-B025-6C7A62632CF2}
+	EndGlobalSection
+EndGlobal
