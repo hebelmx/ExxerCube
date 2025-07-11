@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- ============================================================================ -->
+	<!-- CORE PROPERTIES -->
+	<!-- ============================================================================ -->
+	<PropertyGroup>
+		<!-- Target Framework -->
+		<TargetFramework>net9.0</TargetFramework>
+		<UseMicrosoftTestingPlatformRunner>true</UseMicrosoftTestingPlatformRunner>
+
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<!-- Language Features -->
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Test Configuration -->
+		<OutputType>Exe</OutputType>
+		<IsPackable>false</IsPackable>
+		<IsTestProject>true</IsTestProject>
+
+		<!-- Application Information -->
+		<AssemblyTitle>ExxerAI Orchestration Tests</AssemblyTitle>
+		<Description>Unit Tests for ExxerAI Orchestration and Workflow Management</Description>
+		<Company>Exxerpro Solutions</Company>
+		<Product>ExxerAI Intelligence System</Product>
+		<Title>ExxerAI.Orchestration.Tests</Title>
+	</PropertyGroup>
+
+	<!-- ============================================================================ -->
+	<!-- PUBLISHING PROPERTIES -->
+	<!-- ============================================================================ -->
+	<PropertyGroup>
+		<!-- Publishing Enhancements -->
+		<EnableDynamicPgo>true</EnableDynamicPgo>
+		<TieredCompilation>true</TieredCompilation>
+	</PropertyGroup>
+
+	<!-- ============================================================================ -->
+	<!-- PACKAGE REFERENCES - TESTING FRAMEWORK -->
+	<!-- ============================================================================ -->
+	<ItemGroup Label="Testing Framework">
+		<PackageReference Include="Microsoft.NET.Test.Sdk" />
+		<PackageReference Include="xunit.v3" />
+		<PackageReference Include="xunit.analyzers">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="xunit.runner.visualstudio">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="coverlet.collector">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="xunit.v3.runner.inproc.console" />
+		<PackageReference Include="xunit.v3.runner.msbuild">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<!-- ============================================================================ -->
+	<!-- PACKAGE REFERENCES - TESTING UTILITIES -->
+	<!-- ============================================================================ -->
+	<ItemGroup Label="Testing Utilities">
+		<PackageReference Include="NSubstitute" />
+		<PackageReference Include="Shouldly" />
+
+		<PackageReference Include="Microsoft.Extensions.Hosting"  />
+		<PackageReference Include="Microsoft.Extensions.Options"  />
+
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Core\ExxerAI.Domain\ExxerAI.Domain.csproj" />
+	  <ProjectReference Include="..\..\Orchestration\ExxerAI.Orchestration\ExxerAI.Orchestration.csproj" />
+	</ItemGroup>
+
+
+
+	<!-- ============================================================================ -->
+	<!-- GLOBAL USINGS -->
+	<!-- ============================================================================ -->
+	<ItemGroup Label="Global Usings">
+		<Using Include="Xunit" />
+	</ItemGroup>
+
+	<!-- ============================================================================ -->
+	<!-- PROJECT REFERENCES -->
+	<!-- ============================================================================ -->
+
+</Project>

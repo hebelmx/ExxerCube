@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+		<Sdk Name="Aspire.AppHost.Sdk" Version="9.3.0" />
+
+  <PropertyGroup>
+	<OutputType>Exe</OutputType>
+	<TargetFramework>net9.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<IsAspireHost>true</IsAspireHost>
+	<UserSecretsId>30dd0613-dff3-4210-aca2-77b0ed45681b</UserSecretsId>
+	<!-- Remove manual DCP paths - let 8.2.2 auto-detect -->
+  </PropertyGroup>
+
+  <ItemGroup>
+
+	<PackageReference Include="Aspire.Hosting.AppHost" Version="9.3.1" />
+	<PackageReference Include="Aspire.Hosting.NodeJs" Version="9.3.1" />
+	<PackageReference Include="Microsoft.SemanticKernel" Version="1.60.0" />
+	<PackageReference Include="Aspire.Hosting.Redis" Version="9.3.1" />
+
+	<PackageReference Include="Aspire.Hosting.SqlServer" Version="9.3.2" />
+	<PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="9.3.1" />
+	<PackageReference Include="Aspire.Hosting.Qdrant" Version="9.3.1" />
+	<PackageReference Include="Aspire.Hosting.Seq" Version="9.3.1" />
+	<PackageReference Include="CommunityToolkit.Aspire.Hosting.Ollama" Version="9.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\RagDoc.Web\RagDoc.Web.csproj" />
+  </ItemGroup>
+
+</Project>

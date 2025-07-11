@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+
+
+		  <Nullable>enable</Nullable>
+		  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		  <PackageId>CommunityToolkit.Aspire.Hosting.N8N</PackageId>
+		  <IsAspireProjectResource>false</IsAspireProjectResource>
+		  <Version>1.0.0</Version>
+		  <Authors>Abel Briones</Authors>
+		  <Company>Exxerpro Solutions </Company>
+		  <PackageTags>aspire;hosting;workflow;n8n</PackageTags>
+		  <Description>Fluent Aspire integration for the N8N workflow engine.</Description>
+		  <RepositoryUrl>https://github.com/your/repo</RepositoryUrl>
+		  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting"  />
+		<PackageReference Include="Microsoft.Extensions.Http"  />
+		<PackageReference Include="Microsoft.Extensions.Configuration"  />
+
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions"/>
+	</ItemGroup>
+
+</Project>

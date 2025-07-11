@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34825.169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.OpenAI.Api", "Aspire.OpenAI.Api\Aspire.OpenAI.Api.csproj", "{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.OpenAI.AppHost", "Aspire.OpenAI.AppHost\Aspire.OpenAI.AppHost.csproj", "{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspire.OpenAI.ServiceDefaults", "Aspire.OpenAI.ServiceDefaults\Aspire.OpenAI.ServiceDefaults.csproj", "{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RagDoc", "RagDoc", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RagDoc.Web", "RagDoc\RagDoc.Web\RagDoc.Web.csproj", "{4B5BA6D9-EABD-339C-2A58-BDB8AE46AB1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RagDoc.ServiceDefaults", "RagDoc\RagDoc.ServiceDefaults\RagDoc.ServiceDefaults.csproj", "{7EC680E7-D968-DCC0-0F5C-28A11A02D0BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RagDoc.AppHost", "RagDoc\RagDoc.AppHost\RagDoc.AppHost.csproj", "{AB2BAEF2-04A8-6E97-901D-A2D1B7B93DF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4FEACB-6256-49A0-A672-CB03F94DC9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAD438D-4E90-435C-A5CA-AC70174E3CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5097D43-83BD-44E6-BF4F-9A794E8A0EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5BA6D9-EABD-339C-2A58-BDB8AE46AB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5BA6D9-EABD-339C-2A58-BDB8AE46AB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5BA6D9-EABD-339C-2A58-BDB8AE46AB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5BA6D9-EABD-339C-2A58-BDB8AE46AB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC680E7-D968-DCC0-0F5C-28A11A02D0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC680E7-D968-DCC0-0F5C-28A11A02D0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC680E7-D968-DCC0-0F5C-28A11A02D0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC680E7-D968-DCC0-0F5C-28A11A02D0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2BAEF2-04A8-6E97-901D-A2D1B7B93DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2BAEF2-04A8-6E97-901D-A2D1B7B93DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2BAEF2-04A8-6E97-901D-A2D1B7B93DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2BAEF2-04A8-6E97-901D-A2D1B7B93DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B5BA6D9-EABD-339C-2A58-BDB8AE46AB1C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7EC680E7-D968-DCC0-0F5C-28A11A02D0BE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{AB2BAEF2-04A8-6E97-901D-A2D1B7B93DF7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		FileExplorer = ..\|RagDoc\
+		SolutionGuid = {928EA655-35FE-40C4-B025-6C7A62632CF2}
+	EndGlobalSection
+EndGlobal
